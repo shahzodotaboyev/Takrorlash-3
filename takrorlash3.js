@@ -59,3 +59,19 @@
 //     ).join('');
 // }
 // console.log(swapCase("aAbBC"));
+
+
+// 11 ( ishalap bilmadm)
+
+
+// 12
+function uncamelize(str, separator = " ") {
+    if (!str) return ""; 
+    return str
+        .replace(/([a-z])([A-Z])/g, `$1${separator}$2`)
+        .toLowerCase();
+}
+
+console.log(uncamelize("helloWorld", " "));  
+console.log(uncamelize("helloWorld", "-")); 
+console.log(uncamelize("helloWorld", "_")); 
