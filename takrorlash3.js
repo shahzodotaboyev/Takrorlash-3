@@ -53,10 +53,9 @@
 // console.log(capitalizeEachWord("js string exercises"));
 
 // 10
-function swapCase(str) {
-    return str.split('').map(char => 
-        char === char.toUpperCase() ? char.toLowerCase() : char.toUpperCase()
-    ).join('');
-}
-console.log(swapCase("aAbBC"));
-node 
+// function swapCase(str) {
+//     return str.split('').map(char => 
+//         char === char.toUpperCase() ? char.toLowerCase() : char.toUpperCase()
+//     ).join('');
+// }
+// console.log(swapCase("aAbBC"));
